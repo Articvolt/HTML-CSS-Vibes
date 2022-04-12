@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +11,15 @@
     referrerpolicy="no-referrer" />
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Vibe exercice</title>
 </head>
 <body>
     <div class="wrapper">
 
-
+<!-- HEADER -->
         <header>
+
+    <!-- MENU NAV / BURGER  -->
             <div class="navbar">
                 <img src="logo.png" alt="">
                 <nav class="nav">
@@ -31,51 +33,82 @@
                 <button id="burger"><i class="fa-solid fa-bars"></i></button>
             </div>
 
+    <!-- IMAGE -->
             <img class="forest" src="forest.jpg" alt="landscape">
-
+            
+    <!-- TEXTE IMAGE -->
             <div class="text_img">
-                <h1>HTML TEMPLATE FOR CREATIVE FOLKS AND DESIGN AGENCIES</h1>
-                <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind texts.</p>
-                <button>READ MORE</button>
+                <h1>
+                    HTML TEMPLATE FOR CREATIVE FOLKS AND DESIGN AGENCIES
+                </h1>
+                <p>
+                    Far far away, behind the word mountains, far from countries 
+                    Vokalia and Consonantia, there live the blind texts.
+                </p>
+                <button>READ MORE</button>               
             </div>
-
         </header>
 
-        <div>
+<!-- PARTIE SECTION -->
+        <div class="section">
+    <!-- Section 1 "Why choose us?" -->
             <section>
                 <h2>Why Choose Us ?</h2>
                 <p>
-                    Maecenas tempus, tellus eget condimentum thoncus, sem quam semper libero, sit amet.
+                    <strong>
+                        Maecenas tempus, tellus eget condimentum thoncus, sem quam semper libero, sit amet.
+                    </strong>
                 </p>
                 <p>
                     Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante trincidunt tempus. Donec vitae sapien ut libero.
                 </p>
             </section>
-
+    <!-- Section 2 "What you get?" -->
             <section>
                 <h2>What You Get ?</h2>
-                <div>
-                    <img src="" alt="">
-                    <h3>COLORFUL & COMPACT</h3>
-                    <p>Portfolio WordPress Theme</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>VERY EASY TO USE</h3>
-                    <p>Page Builder & Shortcodes</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>CODED WITH SASS</h3>
-                    <p>Create Custom Skins in Minutes</p>
-                </div>
-            </section>
+                <!-- SOURCE : https://developer.mozilla.org/fr/docs/Web/HTML/Element/dd -->
+                <dl>
+                    <dt>
+                        <img src="" alt="">
+                        COLORFUL & COMPACT                       
+                    </dt>
+                    <dd> Portfolio WordPress Theme </dd>
 
+                    <dt>
+                        <img src="" alt="">
+                        VERY EASY TO USE
+                    </dt>                       
+                    <dd> Page Builder & Shortcodes </dd>
+                                                                      
+                    <dt>
+                        <img src="" alt="">
+                        CODED WITH SASS
+                    </dt>                                              
+                    <dd> Create Custom Skins in Minutes </dd>               
+            </section>
+    <!-- Section 3 accordeon  -->
             <section>
-                
+                <div>
+                    <h3>NULLA CONSEQUAT MASSA</h3>
+                    <p>
+                        In enim justo, rhoncus ul, imperdiet a, venenatis vitae, justo
+                    </p>
+                </div>
+                <div>
+                    <h3>VIVAMUS ELEMENTUM SEMPER</h3>
+                    <p>
+                        In enim justo, rhoncus ul, imperdiet a, venenatis vitae, justo
+                    </p>
+                </div>
+                <div>
+                    <h3>ETIAM ULTRICIES NISI VEL</h3>
+                    <p>
+                        In enim justo, rhoncus ul, imperdiet a, venenatis vitae, justo
+                    </p>
+                </div>
             </section>
         </div>
-
+<!-- PARTIE GALLERY -->
         <div class="gallery">
         </div>
 
