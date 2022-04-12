@@ -69,13 +69,16 @@ nav{
 
 .contain_img{
     position: relative;
+    /* Pour permettre de mettre le texte en absolute par rapport à la div */
 }
 
 .text_img{
     position: absolute;
     color: white;
     font-size: 2rem;
-    text-align: center;
+    text-align: center; 
+    width: 70%; 
+    /* longeur du texte sur l'image */
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%);
@@ -92,6 +95,7 @@ nav{
     font-size: 1.5rem;
     /* permet d'arrondir les bords */
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* ---------------------------------------------------------------- */
@@ -100,6 +104,22 @@ nav{
 
 .section{
     display: flex;
-    justify-content: space-between;
-    gap: 3rem;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+section{
+    flex-flow: row wrap;
+}
+
+/* --------------------------------------------------------------------- */
+/* GALLERY */
+.gallery{
+    display: flex;
+}
+/* MENU GALLERY */
+
+.menu_gallery{
+    display: flex;
+    
 }
