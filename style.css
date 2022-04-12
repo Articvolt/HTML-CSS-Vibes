@@ -14,7 +14,10 @@ body {
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 }
 
-/* MENU BURGER */
+/* --------------------------------------------------------------------- */
+/* HEADER */
+
+    /* MENU BURGER */
 
 .navbar{
     display: flex;
@@ -55,14 +58,14 @@ nav{
 
 }
 
-/* IMAGE HEADER */
+    /* IMAGE HEADER */
 
 .forest{
     object-fit: contain;
     width: 100%;  
 }
 
-/* TEXTE HEADER */
+    /* TEXTE HEADER */
 
 .contain_img{
     position: relative;
@@ -71,9 +74,27 @@ nav{
 .text_img{
     position: absolute;
     color: white;
+    font-size: 2rem;
     text-align: center;
-    margin: 0;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* centrer du texte sur img  */
+    /* https://www.alsacreations.com/article/lire/539-Centrer */
 }
+
+    /* BOUTON IMG */
+
+.read_more{
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    /* permet d'arrondir les bords */
+    border-radius: 5px;
+}
+
+/* ---------------------------------------------------------------- */
 
 /* SECTION */
 
