@@ -45,7 +45,7 @@ nav{
 }
 
 #burger{
-    display: none;
+    /* display: none; */
     color: white;
     background-color: transparent;
     margin-right: 5rem;
@@ -59,8 +59,20 @@ nav{
 
 .forest{
     object-fit: contain;
-    width: 100%;
+    width: 100%;  
+}
 
+/* TEXTE HEADER */
+
+.contain_img{
+    position: relative;
+}
+
+.text_img{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
 
 /* SECTION */
@@ -70,5 +82,3 @@ nav{
     justify-content: space-between;
     gap: 3rem;
 }
-
-
