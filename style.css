@@ -123,3 +123,22 @@ section{
     display: flex;
     
 }
+
+/* -------------------------------------------------------------------- */
+/* AVIS */
+
+blockquote{
+    display:flex;
+}
+
+/* --------------------------------------------------------------------- */
+/* FOOTER */
+.footer{
+    display: flex;
+}
+
+/* DESC FOOTER */
+.desc_footer{
+    display: flex;
+    justify-content: space-around;
+}
