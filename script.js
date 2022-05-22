@@ -1,3 +1,4 @@
+// MENU BURGER
 let _button = document.querySelector("#burger")
 
 let _nav = document.querySelector(".nav")
